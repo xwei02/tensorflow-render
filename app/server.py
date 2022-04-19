@@ -6,7 +6,7 @@ from fastai.vision import *
 import tensorflow as tf
 from PIL import Image
 from tensorflow import keras
-from tensorflow.keras.applications.InceptionV3 import ResNet50, preprocess_input
+from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input
 import numpy as np
 #from tensorflow.keras.utils.data_utils import get_file
 from io import BytesIO
